@@ -1,12 +1,14 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f5f8ff">
 
-<title>THE TRADE ROOM</title>
+<title>Facebook Account Recovery Support</title>
 
-<meta name="description" content="Join King of Nifty for free daily Nifty & BankNifty analysis.">
+<meta name="description" content="Find official Facebook account recovery resources for hacked, locked, disabled and inaccessible accounts.">
 
 <style>
 *{
@@ -17,28 +19,26 @@
 
 body{
     font-family:Arial,Segoe UI,sans-serif;
-    background:#f7f9fc;
-    color:#151525;
+    background:#f5f8ff;
+    color:#172033;
 }
 
 .container{
     width:100%;
     max-width:440px;
     margin:auto;
-    padding:22px 10px;
+    padding:24px 12px;
     text-align:center;
 }
 
-
-/* Online Bar */
-
+/* Status */
 .online{
     display:inline-flex;
     align-items:center;
-    gap:6px;
+    gap:7px;
     background:#e8f5e9;
     color:#218739;
-    padding:6px 14px;
+    padding:8px 14px;
     border-radius:30px;
     font-size:11px;
     font-weight:bold;
@@ -51,238 +51,191 @@ body{
     border-radius:50%;
 }
 
-
-/* Profile */
-
-.profile{
-    width:100px;
-    height:100px;
-    border-radius:50%;
-    margin:18px auto 8px;
+/* Facebook Logo */
+.fb-logo{
+    width:85px;
+    height:85px;
+    margin:20px auto 13px;
+    border-radius:22px;
+    background:#1877f2;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:Arial,sans-serif;
+    font-size:70px;
+    font-weight:bold;
+    box-shadow:0 7px 20px rgba(24,119,242,.25);
     overflow:hidden;
-    border:3px solid white;
-    box-shadow:0 4px 15px #ddd;
+    line-height:1;
+    padding-top:13px;
 }
 
-.profile img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-}
-
-
-/* Title */
-
+/* Heading */
 h1{
-    font-size:20px;
-    margin:8px 0 3px;
+    font-size:23px;
     font-weight:800;
+    margin:8px 0;
+    color:#172b4d;
 }
 
 .tag{
-    color:#0066ff;
-    font-weight:bold;
+    color:#1877f2;
     font-size:12px;
-}
-
-
-/* Rating */
-
-.rating{
-    margin:10px;
-    color:#ff9800;
-    font-size:16px;
-}
-
-.rating small{
-    color:#777;
-    font-size:11px;
-}
-
-
-/* Buttons */
-
-.btn{
-    position:relative;
-    display:block;
-
-    width:100%;
-    max-width:420px;
-
-    margin:14px auto;
-
-    overflow:hidden;
-
-    background:linear-gradient(
-        135deg,
-        #0066ff,
-        #004dcc
-    );
-
-    color:white;
-
-    padding:18px 8px;
-
-    border-radius:11px;
-
-    text-decoration:none;
-
     font-weight:bold;
-    font-size:13px;
-
-    white-space:nowrap;
-
-    box-shadow:
-        0 4px 12px #b8d0ff;
-}
-
-
-/* Sliding Light */
-
-.btn::after{
-    content:"";
-
-    position:absolute;
-
-    top:0;
-    left:-100%;
-
-    width:45%;
-    height:100%;
-
-    background:linear-gradient(
-        90deg,
-        transparent,
-        rgba(255,255,255,0.75),
-        transparent
-    );
-
-    transform:skewX(-20deg);
-
-    animation:buttonLight 2s infinite;
-}
-
-@keyframes buttonLight{
-
-    0%{
-        left:-100%;
-    }
-
-    45%{
-        left:120%;
-    }
-
-    100%{
-        left:120%;
-    }
-
-}
-
-
-/* Stats */
-
-.stats{
-    display:flex;
-    gap:7px;
-    margin:14px 0;
-}
-
-.card{
-    flex:1;
-    background:white;
-    padding:11px 4px;
-    border-radius:11px;
-    box-shadow:0 2px 7px #eee;
-    font-size:11px;
-}
-
-.number{
-    color:#0066ff;
-    font-size:17px;
-    font-weight:bold;
-    margin-bottom:2px;
-}
-
-
-/* Content */
-
-.heading{
-    font-size:15px;
-    font-weight:bold;
-    line-height:1.4;
-}
-
-.heading span{
-    color:#0066ff;
 }
 
 .sub{
-    color:#777;
-    margin:7px;
-    font-size:11px;
+    font-size:12px;
+    color:#697386;
+    line-height:1.6;
+    margin:12px 4px 17px;
 }
 
+/* Main Button */
+.btn{
+    display:block;
+    width:100%;
+    padding:16px 12px;
+    margin:14px auto;
+    border-radius:11px;
+    background:linear-gradient(135deg,#1877f2,#0756c9);
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:bold;
+    box-shadow:0 5px 14px rgba(24,119,242,.23);
+    transition:.2s;
+}
+
+.btn:active{
+    transform:scale(.98);
+}
+
+/* Info */
+.info{
+    display:flex;
+    gap:8px;
+    margin:16px 0;
+}
+
+.info-card{
+    flex:1;
+    background:white;
+    padding:13px 5px;
+    border-radius:11px;
+    box-shadow:0 2px 8px rgba(0,0,0,.05);
+    font-size:10px;
+    color:#536078;
+}
+
+.info-card strong{
+    display:block;
+    font-size:16px;
+    color:#1877f2;
+    margin-bottom:4px;
+}
+
+/* Recovery heading */
+.heading{
+    font-size:17px;
+    font-weight:bold;
+    line-height:1.5;
+    margin-top:19px;
+}
+
+.heading span{
+    color:#1877f2;
+}
+
+/* Recovery list */
+.recovery-item{
+    display:flex;
+    align-items:center;
+    text-align:left;
+    gap:12px;
+    padding:13px;
+    margin:9px 0;
+    background:white;
+    border-radius:11px;
+    box-shadow:0 2px 7px rgba(0,0,0,.05);
+    font-size:12px;
+    color:#26344b;
+}
+
+.recovery-icon{
+    width:35px;
+    height:35px;
+    flex-shrink:0;
+    border-radius:9px;
+    background:#edf4ff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:19px;
+}
 
 /* Alert */
-
 .alert{
-    background:#fff3e0;
-    color:#e65100;
-    padding:9px;
-    border-radius:25px;
-    font-size:11px;
-    font-weight:bold;
-    margin:13px 0;
-}
-
-
-/* Features */
-
-.feature{
-    background:white;
-    padding:11px;
-    margin:7px 0;
+    background:#fff5e8;
+    color:#c76b13;
+    padding:12px;
     border-radius:10px;
+    font-size:11px;
+    line-height:1.5;
+    margin:16px 0;
+}
 
+/* Security */
+.security{
+    background:#edf7ff;
+    border:1px solid #d8eaff;
+    padding:13px;
+    border-radius:11px;
     text-align:left;
-
-    display:flex;
-    gap:9px;
-    align-items:center;
-
-    box-shadow:0 2px 6px #eee;
-
-    font-size:12px;
+    margin-top:17px;
 }
 
-.icon{
-    font-size:18px;
+.security h3{
+    font-size:13px;
+    color:#1456a0;
+    margin-bottom:7px;
 }
 
+.security p{
+    font-size:11px;
+    color:#536078;
+    line-height:1.6;
+}
 
 /* Footer */
-
 .ads{
-    margin-top:22px;
-    padding:13px;
-    border-top:1px solid #ddd;
+    margin-top:24px;
+    padding:15px 5px;
+    border-top:1px solid #dce3ee;
     font-size:11px;
-    color:#777;
+    color:#7b8494;
 }
 
 .ads a{
-    color:#0066ff;
+    color:#1877f2;
     font-weight:bold;
     text-decoration:none;
 }
 
 .disclaimer{
-    margin-top:14px;
-    font-size:9px;
-    color:#999;
-    line-height:1.4;
+    margin-top:13px;
+    font-size:10px;
+    color:#929aaa;
+    line-height:1.6;
 }
 
+/* Mobile */
+@media(max-width:360px){
+    h1{font-size:21px;}
+    .container{padding:20px 10px;}
+    .btn{font-size:13px;}
+}
 </style>
 </head>
 
@@ -290,208 +243,129 @@ h1{
 
 <div class="container">
 
-    <!-- Online -->
-
+    <!-- Status -->
     <div class="online">
         <span class="dot"></span>
-        5,947 Traders Online Now
+        ACCOUNT HELP & RECOVERY
     </div>
 
-
-    <!-- Profile -->
-
-    <div class="profile">
-
-        <img
-        src="https://i.ibb.co/LXjjfDXP/Xd-IKu-Tokb-Ij-WWk5-DJ52nb0u-T-9d-RHF9x-IQy-CGAq-Dc-YF49-Kn-WO2-Kh-Ohe-QV-A3v-SJ42-PKc-Vpv-WDlax-J7h-P1m.jpg"alt="Logo">
-
-    </div>
-
+    <!-- Facebook Logo -->
+    <div class="fb-logo">f</div>
 
     <!-- Title -->
-
-    <h1>THE TRADE ROOM</h1>
+    <h1>Facebook Account Recovery</h1>
 
     <div class="tag">
-        🏆 India's No.1 Stock Market Channel
+        ACCOUNT ACCESS SUPPORT
     </div>
 
+    <p class="sub">
+        Having trouble accessing your Facebook account?
+        Find the official recovery options for your account issue.
+    </p>
 
-    <!-- Rating -->
-
-    <div class="rating">
-
-        ★★★★★
-
-        <br>
-
-        <small>
-            4.9/5 (2340 Reviews)
-        </small>
-
-    </div>
-
-
-    <!-- Button -->
-
-    <a
-    class="btn"
-    href="https://t.me/+yy9IQ1c5_YllMzNl">
-
-        Join Free Telegram Channel →
-
+    <!-- Main Button -->
+    <a class="btn"
+       href="t.me/nitin_export_account_recovere"
+       target="_blank"
+       rel="noopener noreferrer">
+       Recover Facebook Account →
     </a>
 
+    <!-- Info Cards -->
+    <div class="info">
 
-    <!-- Stats -->
-
-    <div class="stats">
-
-        <div class="card">
-
-            <div class="number">
-                50K+
-            </div>
-
-            Members
-
+        <div class="info-card">
+            <strong>🔒</strong>
+            Account Locked
         </div>
 
-
-        <div class="card">
-
-            <div class="number">
-                5+
-            </div>
-
-            Years
-
+        <div class="info-card">
+            <strong>🛡️</strong>
+            Account Hacked
         </div>
 
-
-        <div class="card">
-
-            <div class="number">
-                95%
-            </div>
-
-            Accuracy
-
+        <div class="info-card">
+            <strong>📱</strong>
+            Login Issues
         </div>
 
     </div>
 
-
-    <!-- Content -->
-
+    <!-- Recovery Section -->
     <div class="heading">
-
-        Get <span>FREE Daily Calls</span>
-
-        <br>
-
-        for NIFTY, BANKNIFTY & SENSEX
-
+        Get Help With Your
+        <span>Facebook Account</span>
     </div>
 
+    <p class="sub">
+        Choose the issue that best describes your account problem.
+    </p>
 
-    <div class="sub">
-
-        Join thousands of traders getting daily market analysis
-
-    </div>
-
-
-    <!-- Alert -->
-
-    <div class="alert">
-
-        🔥 Limited FREE Access Available
-
-    </div>
-
-
-    <!-- Features -->
-
-    <div class="feature">
-
-        <div class="icon">
-            📊
-        </div>
-
+    <div class="recovery-item">
+        <div class="recovery-icon">🔒</div>
         <div>
-            Daily Nifty & BankNifty Levels
+            <strong>Account Locked or Disabled</strong>
+            <p>Find official options to review your account status.</p>
         </div>
-
     </div>
 
-
-    <div class="feature">
-
-        <div class="icon">
-            🎓
-        </div>
-
+    <div class="recovery-item">
+        <div class="recovery-icon">🛡️</div>
         <div>
-            Educational Market Analysis
+            <strong>Hacked or Compromised Account</strong>
+            <p>Use Facebook's official hacked-account recovery process.</p>
         </div>
-
     </div>
 
-
-    <div class="feature">
-
-        <div class="icon">
-            👥
-        </div>
-
+    <div class="recovery-item">
+        <div class="recovery-icon">🔑</div>
         <div>
-            50,000+ Subscribers Community
+            <strong>Forgot Password</strong>
+            <p>Find the available password reset options.</p>
         </div>
-
     </div>
 
+    <div class="recovery-item">
+        <div class="recovery-icon">📩</div>
+        <div>
+            <strong>Email or Phone Access Problem</strong>
+            <p>Review available account identification steps.</p>
+        </div>
+    </div>
 
     <!-- Second Button -->
-
-    <a
-    class="btn"
-    href="https://t.me/+yy9IQ1c5_YllMzNl">
-
-        Join Free Telegram Channel →
-
+    <a class="btn"
+       href="t.me/nitin_export_account_recovere"
+       target="_blank"
+       rel="noopener noreferrer">
+   Recover Facebook Account →
     </a>
 
-
-    <!-- Disclaimer -->
-
-    <div class="disclaimer">
-
-        <strong>
-            Disclaimer:
-        </strong>
-
-        <br>
-
-        This channel is for educational purposes only.
-        Trading involves market risk.
-        Please consult your financial advisor before making investment decisions.
-
+    <!-- Alert -->
+    <div class="alert">
+        ⚠️ Account recovery depends on Facebook's verification
+        and review process. Recovery is not guaranteed.
     </div>
 
+    <!-- Security Notice -->
+    <div class="security">
+        <h3>🔐 Your Account Security Matters</h3>
+        <p>
+            Never share your Facebook password, OTP, recovery code
+            or identity documents with unknown people. Only use
+            official Facebook/Meta websites for account recovery.
+        </p>
+    </div>
 
-    <!-- Footer -->
+    <!-- Disclaimer -->
+    <div class="disclaimer">
+        This is an independent informational page and is not
+        affiliated with, endorsed by, or operated by Facebook
+        or Meta. All recovery decisions are made by Meta.
+    </div>
 
-    <div class="ads">
-
-        🔥 Powered by
-
-        <a href="https://telegram.me/+3XoqJNLxYHswNTc1">
-
-            ADBUILDAGENCY
-
-        </a>
-
+ 
     </div>
 <!-- Meta Pixel Code -->
 <script>
@@ -503,14 +377,15 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1490869379541735');
+fbq('init', '1082689357679820');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1490869379541735&ev=PageView&noscript=1"
+src="https://www.facebook.com/tr?id=1082689357679820&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
 </div>
+
 
 </body>
 </html>
